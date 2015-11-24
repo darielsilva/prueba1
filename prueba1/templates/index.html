@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Animal</title>
+</head>
+<body>
+	<ul>
+		{% for e in animal_list %}
+			<li>
+				{{e.id}}, {{e.nombre}}, {{e.animal}}, {{raza}}, {{sexo}}
+				
+			</li>
+		{% endfor %}
+		
+	</ul>
+</body>
+</html>
